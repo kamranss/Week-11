@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Service.Service.Interface
 {
-    internal class IAccount
+    public interface IAccount
     {
+        public string Login(string email, string password, int role);
     }
 }
