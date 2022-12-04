@@ -8,7 +8,10 @@ namespace Service.Helpers.Constans
 {
     internal class AccountContans
     {
-        public const string SuperAdminEntrance = "Super admin olaraq giris etdiniz";
-        public const string CredentialsInvalid = "Email or Password are wrong";
+        public const string Email = "test@code.edu.az";
+        public const string Password = "test12345";
+        public const string SuperAdminValidEntrance = "Super admin olaraq giris etdiniz";
+        public const string SuperAdminCredentialsInvalid = "Sizin giris ucun icazeniz yoxdur";
+        public const string CredentialsInvalid = "Email ve ya password sehfdir";
     }
 }

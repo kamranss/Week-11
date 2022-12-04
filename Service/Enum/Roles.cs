@@ -12,4 +12,5 @@ namespace Service.Enum
         Admin,
         User
     }
+    
 }
